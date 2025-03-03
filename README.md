@@ -16,6 +16,10 @@
 ### Why Is The Code So Bad? Why Is The UI So Terrible?
 Because this little webpage is not a priority.
 
+### Why Don't You Just Use Wolfram Alpha? See https://stackoverflow.com/a/31057489
+Because the UI used by Wolfram Alpha does not show your RGB hex color as a side-by-side reference.
+Also, because I did not know it existed when I wrote this.
+
 ### Examples That Don't Have Great Matches
  - `#aabbca` (gives a weird result if using Euclidean distance in RGB space)
      - I tried with CIELAB color space but that did not work well either
