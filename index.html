@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Closest ANSI 256 Color </title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <p>
+      If you need to work with ANSI-256 colors in your terminal,
+      and you already know which RGB hex colors you would like to use,
+      then use this little webpage to find the closest ANSI-256 color.
+    </p>
+
+    <p>
+      See the project README for more information.
+    </p>
+    <label for="hex-color-input">Hex color:</label>
+    <input type="text" id="hex-color-input">
+    <div id="invalid-hex-color-warning"> Invalid hex color.</div>
+    <div id="input-color-preview" class="color"> </div>
+
+    <hr>
+
+    <table id="ansi-candidates">
+      <thead>
+        <tr>
+          <th> Ranking </th>
+          <th> ANSI Index </th>
+          <th> RGB Hex Color </th>
+          <th> ANSI Color </th>
+          <th> Reference Color </th>
+        </tr>
+      </thead>
+      <tbody id="ansi-candidates-tbody">
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

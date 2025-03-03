@@ -1,0 +1,21 @@
+.color {
+  min-width: 200px;
+  min-height: 200px;
+}
+
+#invalid-hex-color-warning {
+  display: none;
+  color: red;
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+th, td {
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
